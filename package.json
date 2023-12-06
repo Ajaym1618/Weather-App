@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Ajaym1618.github.io/Weather-App",
+  "homepage": "https://Ajaym1618.github.io/Weather-App/",
   "name": "modified-weather-app",
   "version": "0.1.0",
   "private": true,
@@ -40,6 +40,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.1.0"
   }
 }
