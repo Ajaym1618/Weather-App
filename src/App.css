@@ -1,0 +1,132 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../public/clouds-2085112_1280.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: center;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.center{
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 15px;
+} 
+
+.search{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.search input{
+  width: 300px;
+  height: 60px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.search button{
+  width: 100px;
+  height: 62px;
+  font-size: 20px;
+  color: white;
+  background-color: #333;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.date-time{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.date-time span{
+  margin-right: 10px;
+}
+
+.city{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+
+.temp{
+  text-align: center;
+  font-size: 90px;
+  color: white;
+}
+
+.ws-hu{
+  display: flex;
+  justify-content: space-around;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  margin: 30px 0 30px 0;
+}
+
+.ws-hu span{
+  display: flex;
+  justify-content: center;
+}
+
+.ws-hu span img{
+  width: 60px;
+  margin-right: 10px;
+}
+
+
+
+@media only screen and (max-width: 528px){
+  .center{
+    width: 300px;
+  }
+  .search{
+    flex-wrap: wrap;
+  }
+  .search input{
+    width: 250px;
+    height: 60px;
+    font-size: 15px;
+    margin-bottom: 13px;
+    border-radius: 5px;
+  }
+  .search button{
+    margin-bottom: 13px;
+    border-radius: 5px;
+  }
+  .center{
+    padding: 20px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 15px;
+  } 
+  .ws-hu span img{
+    width: 50px;
+    margin-right: 10px;
+  }
+}
